@@ -1,0 +1,48 @@
+Simple DirectMedia Layer (SDL) is a cross-platform software development library designed to provide a low level hardware abstraction layer to computer multimedia hardware components. Software developers can use it to write high-performance computer games and other multimedia applications that can run on many operating systems such as Android, iOS, Linux, Mac OS X, Windows and other platforms.[4]
+
+SDL manages video, audio, input devices, CD-ROM, threads, shared object loading, networking and timers.[5] For 3D graphics it can handle an OpenGL or Direct3D context.
+
+The library is internally written in C and, depending on the target platform, C++ or Objective-C, and provides the application programming interface in C, with bindings to other languages available.[6] It is free and open-source software subject to the requirements of the zlib License since version 2.0 and with prior versions subject to the GNU Lesser General Public License.[3] Under the zlib License, SDL 2.0 is freely available for static linking in closed-source projects, unlike SDL 1.2.[7]
+
+SDL is extensively used in the industry in both large and small projects. Over 700 games, 180 applications, and 120 demos have also been posted on the library website.
+
+A common misconception is that SDL is a game engine, but this is not true. However, the library is well-suited for building an engine on top of it.
+
+
+
+
+Subsystems[edit]
+SDL is divided into several subsystems:[18]
+
+Basics
+Initialization and Shutdown, Configuration Variables, Error Handling, Log Handling
+Video
+Display and Window Management, surface functions, rendering acceleration, etc.
+Input Events
+Event handling, Support for Keyboard, Mouse, Joystick and Game controller
+Force Feedback
+SDL_haptic.h implements support for "Force Feedback"
+Audio
+SDL_audio.h implements Audio Device Management, Playing and Recording
+Threads
+multi-threading: Thread Management, Thread Synchronization Primitives, Atomic Operations
+Timers
+Timer Support
+File Abstraction
+Filesystem Paths, File I/O Abstraction
+Shared Object Support
+Shared Object Loading and Function Lookup
+Platform and CPU Information
+Platform Detection, CPU Feature Detection, Byte Order and Byte Swapping, Bit Manipulation
+Power Management
+Power Management Status
+Additional
+Platform-specific functionality
+Besides this basic, low-level support, there also are a few separate official libraries that provide some more functions. These comprise the "standard library", and are provided on the official website and included in the official documentation:
+
+SDL_image — support for multiple image formats[19]
+SDL_mixer — complex audio functions, mainly for sound mixing[20]
+SDL_net — networking support[21]
+SDL_ttf — TrueType font rendering support[22]
+SDL_rtf — simple Rich Text Format rendering[23]
+Other, non-standard libraries also exist. For example: SDL_Collide on S
